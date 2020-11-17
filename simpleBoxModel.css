@@ -67,30 +67,32 @@ img {/* holder for any image attributes*/
 	/*background-color: #0000FF;*/
 	transform: rotate(0deg);
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
 .two40{
 	width: 150px; 
-	height: 300px;  
-	background-color: #00FF00;
-	transform: rotate(120deg);
+	height: 300px;
+	background-color: #FFFF00; 
+	transform: rotate(120deg); /*rotates against the parent - zero */
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
-.two402{
+.one20{
 	width: 150px; 
 	height: 300px;  
-	transform: rotate(120deg);
+	background-color: #00FF00;
+	transform: rotate(120deg); /*rotates against the parent - two240 */
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
+
 .one80{
 	width: 150px; 
 	height: 300px;  
 	background-color: #FF0000;
-	transform: rotate(120deg);
+	transform: rotate(120deg); /*rotates against the parent - one20 */
 	position: relative;
-	overflow: hidden;
+	overflow: visible;
 }
 .square{
 	top: 60px;
